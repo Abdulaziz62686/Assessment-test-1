@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Recycle.Recycle_Activity"></activity>
-        <activity android:name=".ui.Item_Recycle.Item_recycle_Activity" />
-        <activity android:name=".ui.Home.Home" />
-        <activity android:name=".ui.Login.LoginActivity" />
+        <activity android:name=".item_product_recyler"></activity>
+        <activity android:name=".ui.product.ProductActivity" />
+
         <activity
             android:name=".ui.Splash.Splash"
             android:theme="@style/AppTheme.FullScreen">
@@ -22,7 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

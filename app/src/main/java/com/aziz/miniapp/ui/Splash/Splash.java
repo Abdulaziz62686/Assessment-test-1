@@ -8,7 +8,8 @@ import android.os.CountDownTimer;
 import android.util.Log;
 
 import com.aziz.miniapp.R;
-import com.aziz.miniapp.ui.Recycle.Recycle_Activity;
+import com.aziz.miniapp.ui.product.ProductActivity;
+
 
 public class Splash extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class Splash extends AppCompatActivity {
             @Override
             public void onFinish() {
 
-                Intent intent = new Intent(Splash.this, Recycle_Activity.class);
+                Intent intent = new Intent(Splash.this, ProductActivity.class);
                 startActivity(intent);
                 finish();
 
